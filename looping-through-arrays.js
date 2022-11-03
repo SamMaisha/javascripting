@@ -1,4 +1,6 @@
 let pets = ['cat', 'dog', 'rat']
-for (i = 0, i < 2, i++) {
-  console.log(pets[i] + 's')
+for (let i = 0; i < pets.length; i++) {
+  pets[i] = pets[i] + 's';
 }
+
+console.log(pets);
